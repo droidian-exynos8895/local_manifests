@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="droidian"
+            fetch="https://github.com/droidian-exynos8995"
+            revision="halium-9.0" />
+
+        <remote name="halium-10"
+            fetch="https://github.com/Halium"
+            revision="halium-10.0" />
+
+        <project path="device/samsung/dream2lte" name="android_device_samsung_dream2lte" remote="droidian"/>
+        <project path="device/samsung/universal8895-common" name="android_device_samsung_universal8895-common" remote="droidian"/>
+
+        <project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895" remote="droidian"/>
+
+        <project path="vendor/samsung/dream2lte" name="android_vendor_samsung_dream2lte" remote="droidian"/>
+        <project path="vendor/samsung/universal8895-common" name="android_vendor_samsung_universal8895-common" remote="droidian"/>
+
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="droidian"/>
+
+        <project path="vendor/halium/config" name="android_vendor_halium_config" remote="halium-10"/>
+</manifest>
