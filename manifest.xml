@@ -2,7 +2,7 @@
 <manifest>
 
         <remote name="droidian"
-            fetch="https://github.com/droidian-exynos8995"
+            fetch="https://github.com/droidian-exynos8895"
             revision="halium-9.0" />
 
         <remote name="halium-10"
